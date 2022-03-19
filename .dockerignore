@@ -4,3 +4,6 @@ test/
 .eslintrc*
 .prettierrc
 .DS_Store
+dist/
+.github/
+.nvmrc
