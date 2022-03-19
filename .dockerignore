@@ -1,0 +1,6 @@
+node_modules/
+deployment/
+test/
+.eslintrc*
+.prettierrc
+.DS_Store
