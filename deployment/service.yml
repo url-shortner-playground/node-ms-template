@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: changeme
+spec:
+  selector:
+    app: changeme
+  ports:
+  - port: 80
+    targetPort: 3000

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: changeme
+spec:
+  selector:
+    matchLabels:
+      app: changeme
+  template:
+    metadata:
+      labels:
+        app: changeme
+    spec:
+      containers:
+      - name: changeme
+        image: <Image>
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
